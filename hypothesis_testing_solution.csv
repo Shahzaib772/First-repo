@@ -1,0 +1,51 @@
+"Hypothesis Testing Problem Solution"
+""
+"Problem Statement"
+"A company claims that the average weight of their product packages is 500 grams. A quality control inspector randomly selects 10 packages and weighs them. Test whether the company's claim is valid at a 5% significance level."
+""
+"Sample Data"
+"Sample Number","Weight (grams)"
+1,498
+2,502
+3,495
+4,507
+5,499
+6,503
+7,496
+8,501
+9,504
+10,497
+""
+"Step 1: State the Hypotheses"
+"Null Hypothesis (H0):","μ = 500 (The mean weight is 500 grams)"
+"Alternative Hypothesis (H1):","μ ≠ 500 (The mean weight is not 500 grams)"
+""
+"Step 2: Significance Level"
+"Alpha (α):","0.05 (5%)"
+"Test Type:","Two-tailed t-test"
+""
+"Step 3: Calculate Sample Statistics"
+"Sample Size (n):","10"
+"Sample Mean (x̄):","500.2"
+"Sample Standard Deviation (s):","3.94"
+""
+"Step 4: Calculate Test Statistic"
+"Formula:","t = (x̄ - μ) / (s / √n)"
+"Calculation:","t = (500.2 - 500) / (3.94 / √10)"
+"t-statistic:","0.16"
+""
+"Step 5: Determine Critical Value"
+"Degrees of Freedom (df):","9"
+"Critical t-value (two-tailed):","±2.262"
+""
+"Step 6: Decision Rule"
+"Rule:","Reject H0 if |t| > 2.262"
+"Calculated |t|:","0.16"
+"Is |t| > Critical Value?:","No"
+""
+"Step 7: Conclusion"
+"Decision:","Fail to Reject the Null Hypothesis"
+"Interpretation:","At the 5% significance level, there is not enough evidence to reject the company's claim that the average package weight is 500 grams."
+""
+"Summary"
+"The sample data supports the company's claim. The packages appear to have an average weight consistent with 500 grams."
